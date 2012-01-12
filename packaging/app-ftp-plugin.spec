@@ -2,22 +2,22 @@
 Name: app-ftp-plugin
 Version: 6.2.0.beta3
 Release: 1%{dist}
-Summary: FTP Server Accounts - APIs and install
+Summary: FTP Server Policies - APIs and install
 License: LGPLv3
 Group: ClearOS/Libraries
 Source: app-ftp-plugin-%{version}.tar.gz
 Buildarch: noarch
 
 %description
-Provides FTP Server option in the User Manager.
+FTP Server Policies provide access control for the FTP Server app.
 
 %package core
-Summary: FTP Server Accounts - APIs and install
+Summary: FTP Server Policies - APIs and install
 Requires: app-base-core
 Requires: app-accounts-core
 
 %description core
-Provides FTP Server option in the User Manager.
+FTP Server Policies provide access control for the FTP Server app.
 
 This package provides the core API and libraries.
 
