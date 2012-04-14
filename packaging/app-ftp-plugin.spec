@@ -1,9 +1,9 @@
 
 Name: app-ftp-plugin
 Epoch: 1
-Version: 1.0.10
+Version: 1.1.0
 Release: 1%{dist}
-Summary: FTP Server Policies - APIs and install
+Summary: FTP Server Policies - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Source: app-ftp-plugin-%{version}.tar.gz
@@ -13,7 +13,7 @@ Buildarch: noarch
 FTP Server Policies provide access control for the FTP Server app.
 
 %package core
-Summary: FTP Server Policies - APIs and install
+Summary: FTP Server Policies - Core
 Requires: app-base-core
 Requires: app-accounts-core
 
