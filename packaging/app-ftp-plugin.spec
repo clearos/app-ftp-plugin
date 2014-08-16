@@ -1,7 +1,7 @@
 
 Name: app-ftp-plugin
 Epoch: 1
-Version: 1.1.0
+Version: 1.6.5
 Release: 1%{dist}
 Summary: FTP Server Policies - Core
 License: LGPLv3
@@ -54,9 +54,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/ftp_plugin/packaging
-%exclude /usr/clearos/apps/ftp_plugin/tests
 %dir /usr/clearos/apps/ftp_plugin
 /usr/clearos/apps/ftp_plugin/deploy
 /usr/clearos/apps/ftp_plugin/language
-/usr/clearos/apps/ftp_plugin/libraries
 /var/clearos/accounts/plugins/ftp.php
